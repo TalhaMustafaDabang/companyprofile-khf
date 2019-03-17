@@ -26,6 +26,20 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script>
+    let onTop = new Event('onTop');
+    let notOnTop = new Event('notOnTop');
+    
+    window.onscroll = () =>
+    {
+    if(window.scrollY==0){
+      window.dispatchEvent(onTop);
+    }
+    else{
+      window.dispatchEvent(notOnTop);
+    }
+   }
+    </script>
     <div id="root"></div>
     <!--
       This HTML file is a template.
