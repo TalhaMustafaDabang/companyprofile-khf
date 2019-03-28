@@ -8,11 +8,11 @@ export default class Footer extends Component {
 
     render() {
         return (
-            <footer>
+            <footer id="footer">
 
                 <div className="footerPart1">
 
-                    <div className="about"><h5>Karachi Home Foods, is a Pakistan based startup.<br />We aims to provide home based healthy food to your loved ones at their offices schools and universities.</h5></div>
+                    <div className="about"><h5>Linda Bazar, is a Pakistan based startup.<br />We aims to provide elegent clothes at affordable prices.</h5></div>
                     <div className="team">
 
 

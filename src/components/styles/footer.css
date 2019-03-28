@@ -2,7 +2,7 @@
 
 footer {
     display: flex;
-    background: #5A5560;
+    background: #262626;
     min-height: 240px;
     flex-direction: column;
     justify-content: space-around;
@@ -41,7 +41,7 @@ div.about {
     align-items: center;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
-    color: #FAED26;
+    color: #fafafa;
     /* border: 1px solid black; */
     padding: 20px 10px;
     flex-basis: 0;
@@ -62,7 +62,7 @@ div.about{
 
 div.team {
     font-family: 'Roboto', sans-serif;
-    color: #FAED26;
+    color: #fafafa;
     /* border: 1px solid black; */
     padding: 20px 10px;
     display: flex;
@@ -77,7 +77,7 @@ div.team {
 
 div.contact {
     font-family: 'Roboto', sans-serif;
-    color: #FAED26;
+    color: #fafafa;
     /* border: 1px solid black; */
     padding: 20px 10px;
     padding: 20px 10px;
